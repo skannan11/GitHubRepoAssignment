@@ -1,0 +1,13 @@
+  
+  mkdir GitTestRepoAssignment
+  cd GitTestRepoAssignment/
+  git init
+  touch readme.md
+  git add readme.md
+  vi readme.md
+  git add readme.md
+  git status
+  git commit -m "adding a readme file"
+  git remote add origin https://github.com/skannan11/GitHubRepoAssignment
+  git push -u origin master
+
